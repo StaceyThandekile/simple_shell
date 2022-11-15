@@ -1,10 +1,9 @@
 #include "shell.h"
-
+#include <sys/type.h>
 /**
- * interactive - returns true if shell is interactive mode
- * @info: struct address
- *
- * Return: 1 if interactive mode, 0 otherwise
+ * interactive - returns true if shell is interactive mode.
+ * @info: struct address.
+ * Return: 1 if interactive mode, 0 otherwise.
  */
 int interactive(info_t *info)
 {
@@ -17,6 +16,7 @@ int interactive(info_t *info)
  * @delim: the delimeter string
  * Return: 1 if true, 0 if false
  */
+
 int is_delim(char c, char *delim)
 {
 	while (*delim)
