@@ -1,4 +1,6 @@
 #include "shell.h"
+#include <sys/types.h>
+#include <unistd.h>
 
 /**
  * main - entry point
