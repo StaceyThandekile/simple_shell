@@ -1,5 +1,5 @@
 #include "shell.h"
-#include <sys/type.h>
+
 /**
  * _erratoi - converts a string to an integer
  * @s: the string to be converted
@@ -90,6 +90,7 @@ int print_d(int input, int fd)
  * @num: number
  * @base: base
  * @flags: argument flags
+ *
  * Return: string
  */
 char *convert_number(long int num, int base, int flags)

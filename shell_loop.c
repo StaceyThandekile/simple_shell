@@ -1,6 +1,4 @@
 #include "shell.h"
-#include <sys/types.h>
-#include <unistd.h>
 
 /**
  * hsh - main shell loop

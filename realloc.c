@@ -1,6 +1,4 @@
 #include "shell.h"
-#include <sys/types.h>
-#include <unistd.h>
 
 /**
  **_memset - fills memory with a constant byte
@@ -17,6 +15,7 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	return (s);
 }
+
 /**
  * ffree - frees a string of strings
  * @pp: string of strings
