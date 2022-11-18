@@ -1,12 +1,11 @@
 #include "shell.h"
-#include <sys/types.h>
-#include <unistd.h>
 
 /**
  * add_node - adds a node to the start of the list
  * @head: address of pointer to head node
  * @str: str field of node
  * @num: node index used by history
+ *
  * Return: size of list
  */
 list_t *add_node(list_t **head, const char *str, int num)
@@ -39,6 +38,7 @@ list_t *add_node(list_t **head, const char *str, int num)
  * @head: address of pointer to head node
  * @str: str field of node
  * @num: node index used by history
+ *
  * Return: size of list
  */
 list_t *add_node_end(list_t **head, const char *str, int num)
@@ -157,3 +157,4 @@ void free_list(list_t **head_ptr)
 	}
 	*head_ptr = NULL;
 }
+
